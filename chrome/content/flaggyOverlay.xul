@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://flaggy/skin/flaggy.css" type="text/css"?>
+
+<overlay id="flaggyOverlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<toolbarpalette id="MailToolbarPalette">
+		<toolbarbutton
+			class="toolbarbutton-1"
+			id="FlaggyButton"
+			label="Flag"
+			tooltiptext="Flag email"
+			oncommand="goDoCommand('cmd_markAsFlagged'); event.preventBubble();" />
+
+	</toolbarpalette>
+	
+	<!-- overrides the "Important" tagging key with the flag command -->
+	<key id="key_tag1" oncommand="goDoCommand('cmd_markAsFlagged')"/>
+
+</overlay>

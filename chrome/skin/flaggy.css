@@ -1,0 +1,9 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+treechildren::-moz-tree-cell-text(flagged) {
+   color: red;
+}
+
+#FlaggyButton {
+	list-style-image: url("chrome://flaggy/skin/star.png");
+}

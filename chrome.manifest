@@ -1,0 +1,4 @@
+overlay	chrome://messenger/content/messenger.xul	chrome://flaggy/content/flaggyOverlay.xul
+content	flaggy	chrome/content/
+skin	flaggy	classic/1.0	chrome/skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://flaggy/skin/flaggy.css
