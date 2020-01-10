@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<?xml-stylesheet href="chrome://flaggy/skin/flaggy.css" type="text/css"?>
+<?xml-stylesheet href="chrome://flaggy/content/flaggy.css" type="text/css"?>
 
 <overlay id="flaggyOverlay"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">

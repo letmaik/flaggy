@@ -5,5 +5,5 @@ treechildren::-moz-tree-cell-text(flagged) {
 }
 
 #FlaggyButton {
-	list-style-image: url("chrome://flaggy/skin/star.png");
+	list-style-image: url("chrome://flaggy/content/star.png");
 }

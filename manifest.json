@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "applications": {
+      "gecko": {
+        "id": "flaggy@letmaik.github.com",
+        "strict_min_version": "68.0"
+      }
+    },
+    "name": "Flaggy",
+    "description": "Conveniently flag emails. Displays subjects of flagged emails in red, adds a button for flagging and modifies the key shortcut \"1\" to toggle a flag. The purpose of the extension is to be able to use flags as an alternative to the \"Important\" tag for increased interoperability, in particular for IMAP servers that do not support tags like Microsoft Exchange, but also for cases when using different email clients which do not support each other's custom tags.",
+    "author": "Maik Riechert",
+    "homepage_url": "https://github.com/letmaik/flaggy",
+    "version": "1.0.0",
+    "icons": {
+      "32": "content/star.png"
+    },
+    "legacy": {
+      "type": "xul"
+    }
+}
