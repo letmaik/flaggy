@@ -1,5 +1,7 @@
 # flaggy
 
+**NOTE**: This extension does not work on more recent Thunderbird releases!
+
 A Thunderbird extension for flagging emails more conveniently.
 
 It does three things:
